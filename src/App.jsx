@@ -37,7 +37,7 @@ function Museum() {
         position={[-5, 2, 0]}
         rotation={[0, Math.PI / 2, 0]}
         size={[4, 4]}
-        image="/src/assets/fox art.png"
+        image="/fox art.png"
       />
 
       {/* Right wall */}
@@ -45,7 +45,7 @@ function Museum() {
         position={[5, 2, 0]}
         rotation={[0, -Math.PI / 2, 0]}
         size={[4, 4]}
-        image="/src/assets/smile.png"
+        image="/smile.png"
       />
 
       {/* Back wall */}
@@ -53,7 +53,7 @@ function Museum() {
         position={[0, 2, -5]}
         rotation={[0, 0, 0]}
         size={[4, 4]}
-        image="/src/assets/art girl.png"
+        image="/art girl.png"
       />
 
       <OrbitControls />

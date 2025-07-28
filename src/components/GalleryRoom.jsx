@@ -38,21 +38,21 @@ export default function GalleryRoom() {
             position={[-8 + col * 4, 1.2, -8]}
             rotation={[0, 0, 0]}
             size={[3.5, 3.5]}
-            image={`/src/assets/art${(col + 1) % 3 + 1}.png`}
+            image={`/art${(col + 1) % 3 + 1}.png`}
           />
           {/* Middle row */}
           <Wall
             position={[-8 + col * 4, 1.2, -4]}
             rotation={[0, 0, 0]}
             size={[3.5, 3.5]}
-            image={`/src/assets/art${(col + 2) % 3 + 1}.png`}
+            image={`/art${(col + 2) % 3 + 1}.png`}
           />
           {/* Top row */}
           <Wall
             position={[-8 + col * 4, 4.5, -4]}
             rotation={[0, 0, 0]}
             size={[3.5, 3.5]}
-            image={`/src/assets/art${col % 3 + 1}.png`}
+            image={`/art${col % 3 + 1}.png`}
           />
         </group>
       ))}
